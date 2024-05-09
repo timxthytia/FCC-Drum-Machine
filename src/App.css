@@ -1,0 +1,37 @@
+
+#background{
+  display: flex;
+  justify-content: center;
+  margin-top: 33vh;
+
+}
+
+.drum-pads{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+.drum-pad{
+  border: 1px solid black;
+  color: black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.drum-pad:hover{
+  box-shadow: 3px 3px 3px brown;
+  cursor: pointer;
+}
+
+#display{
+  color: black;
+  text-align: center;
+  font-weight: 600;
+}
